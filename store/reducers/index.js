@@ -1,6 +1,8 @@
 import { combineReducers } from "redux";
-import sampleReducer from "./sampleReducer";
+import postsReducer from "./postsReducer";
+import anotherReducer from "./anotherReducer";
 
 export default combineReducers({
-  sampleData: sampleReducer,
+  postData: postsReducer,
+  testRed: anotherReducer
 });
